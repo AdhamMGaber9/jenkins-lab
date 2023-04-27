@@ -52,12 +52,7 @@ public class PersonService {
 		p.setFirstName("adham");
 		p.setLastName("gaber");
 		persons.add(p);
-		p = new Person();
-		p.setId("7");
-		p.setAge(24);
-		p.setFirstName("adham");
-		p.setLastName("gaber");
-		persons.add(p);
+	
 	}
 	public Person getPerson(String id) {
 		for(Person person:persons) {
